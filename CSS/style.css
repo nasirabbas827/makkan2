@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8f0fe;
+}
+
+nav {
+    background-color: #0056b3;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f90000;
+    font-size: larger;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    text-align: center;
+    margin: 25px;
+}
+
+form {
+    max-width: 500px;  
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+button {
+    background-color: #0056b3;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #ffdd57;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+a:hover {
+    color: #ffdd57;
+}
+
+table {
+    width: 95%;
+    max-width: 100%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+}
+
+th {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+table a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+table a:hover {
+    color: #f13106;
+}
+
+table > form {
+    margin: 0;
+    padding: 0;
+}
+
+table > form select,
+form input[type="submit"] {
+    width: auto;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+table > form input[type="submit"] {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+table > form input[type="submit"]:hover {
+    background-color: #f70905;
+}
+
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
